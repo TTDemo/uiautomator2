@@ -169,7 +169,7 @@ _commands = [
          command="init",
          help="install enssential resources to device",
          flags=[
-             dict(args=['--addr'], default='127.0.0.1:7912', help='atx-agent listen address'),
+             dict(args=['--addr'], default=':7912', help='atx-agent listen address'),
              dict(args=['--serial', '-s'], type=str, help='serial number'),
              dict(args=['serial_optional'],
                   nargs='?',
